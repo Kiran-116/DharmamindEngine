@@ -1,0 +1,11 @@
+{
+  "name": "Remix: Ethos: The Ethical Architect",
+  "description": "An emotionally-aware system using timeless wisdom and consequence simulation to provide grounded ethical guidance for complex emotional decisions.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

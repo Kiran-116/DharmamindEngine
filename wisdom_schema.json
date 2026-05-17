@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DharmaMind Wisdom Dataset",
+  "type": "object",
+  "properties": {
+    "verses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "chapter": { "type": "integer" },
+          "verse": { "type": "integer" },
+          "sanskrit": { "type": "string" },
+          "translation": { "type": "string" },
+          "simpleMeaning": { "type": "string" },
+          "emotionalThemes": { "type": "array", "items": { "type": "string" } },
+          "practicalSituations": { "type": "array", "items": { "type": "string" } },
+          "ethicalPrinciples": { "type": "array", "items": { "type": "string" } },
+          "emotionalTags": { "type": "array", "items": { "type": "string" } },
+          "reflectionPrompts": { "type": "array", "items": { "type": "string" } }
+        },
+        "required": ["id", "chapter", "verse", "sanskrit", "translation", "simpleMeaning", "emotionalThemes", "practicalSituations", "ethicalPrinciples", "emotionalTags", "reflectionPrompts"]
+      }
+    }
+  }
+}
